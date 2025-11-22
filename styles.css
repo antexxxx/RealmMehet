@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(67, 67, 67);
+}
+
+.top {
+    padding: 2vh;
+    text-align: center;
+    font-family: mojangles;
+    color: white;
+    font-size: 1vw;
+}
+
+.book {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+.book-png {
+    width: 50vw;
+    height: auto;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.book-container {
+    position: relative;    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.exit {
+    text-decoration: none;
+    position: absolute;
+    top: 7%;
+    left: 72%;
+    font-size: 2vw;
+    transform: translate(-50%, -50%);
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.nav-r {
+    top: 45%;
+    right: 20%;
+    position: absolute;
+    width: 4vw;
+    height: auto;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.nav-l {
+    top: 45%;
+    left: 20%;
+    position: absolute;
+    width: 4vw;
+    height: auto;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.one {
+    color: rgb(0, 0, 170);
+}
+.two {
+    color: rgb(0, 170, 0);
+}
+.three {
+    color: rgb(0, 170, 170);
+}
+.four {
+    color: rgb(170, 0, 0);
+}
+.five {
+    color: rgb(170, 0, 170);
+}
+.five-l {
+    color: rgb(182, 39, 182);
+}
+.six {
+    color: rgb(255, 170, 0);
+}
+.seven {
+    color: rgb(168, 168, 168);
+}
+.eight {
+    color: rgb(84, 84, 84);
+}
+.nine {
+    color: rgb(84, 84, 255);
+}
+.n {
+    color: rgb(180, 104, 77);
+}
+.t {
+    color: rgb(32, 72, 122);
+}
+.m {
+    color: rgb(150, 21, 6);
+}
