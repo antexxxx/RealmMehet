@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>a Realm named Mehet</title>
+    <title>The Realms Stories</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="apple-touch-icon" sizes="64x64" href="favicon/ico.png">
     <link rel="icon" type="image/png" sizes="64x64" href="favicon/ico.png">
@@ -11,27 +11,41 @@
             font-family: "mojangles";
             src: url(font/mojangles.ttf);
             }
+        @font-face {
+            font-family: "mojangles-b";
+            src: url(font/mojanglesbold.ttf);
+            }
+
     </style>
 </head>
 <body>
     <div class="top">
-        <h1>a <span class="five-l">Realm</span> named <span class="six">Mehet</span></h1>
+        <h1>The <span class="five bold-special">Realms</span> Stories</span></h1>
+        <h2>from the POV of <span class="nine bold-medium-s">Antex</span></h2>
     </div>
-    <div class="book">
-        <div class="book-container">
+    <div class="content" draggable="false">
+        <a href="page1-2_mehet.html" class="button" draggable="false">
+            <img src="assets/button/mehet/idle.png" class="button-png" id="button-mehet" draggable="false" title="the MEHET realms">
             
-            <a href="index.html">
-                <img src="assets/left.png" alt="Minecraft Bedrock Edition's Ore UI arrow pointing to the left side" title="Previous Page" class="nav-l" id="nav-l">
-            <a>
-
-            <img src="assets/book.png" alt="Minecraft Bedrock Edition's book texture" class="book-png">
-
-            <a href="page2.html">
-                <img src="assets/right.png" alt="Minecraft Bedrock Edition's Ore UI arrow pointing to the right side" title="Next Page" class="nav-r" id="nav-r">
-            </a>
-            <a href="about:blank" class="exit" title="Close book">     </a>
-        </div>
+            <img src="assets/button/tip-hidden.png" class="tooltip-png" id="tip-mehet" draggable="false">
+            <img src="assets/button/info.png" class="info-png" id="info-mehet" draggable="false" title="this button shows the tooltip on touchscreen devices">
+        </a>
         
+        <a href="about: no_content" class="button" draggable="false">
+            <img src="assets/button/placeholder/idle.png" class="button-png" id="button-plc2" draggable="false">
+
+            <img src="assets/button/tip-hidden.png" class="tooltip-png2" id="tip-plc2" draggable="false">
+            <img src="assets/button/info.png" class="info-png" id="info-plc2" draggable="false" title="this button shows the tooltip on touchscreen devices">
+        </a>
+        
+        <a href="about: no_content" class="button" draggable="false">
+            <img src="assets/button/placeholder/idle.png" class="button-png" id="button-plc3" draggable="false">
+
+            <img src="assets/button/tip-hidden.png" class="tooltip-png3" id="tip-plc3" draggable="false">
+            <img src="assets/button/info.png" class="info-png" id="info-plc3" draggable="false" title="this button shows the tooltip on touchscreen devices">
+        </a>
     </div>
+
+<script src="buttons-index.js"></script>
 </body>
 </html>
