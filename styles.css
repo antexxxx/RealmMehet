@@ -7,7 +7,8 @@ body {
     text-align: center;
     font-family: mojangles;
     color: white;
-    font-size: 1vw;
+    font-size: 1.7vw;
+    line-height: 2vw;
 }
 
 .book {
@@ -67,16 +68,17 @@ body {
 
 .text-n {
     font-family: mojangles;
-    font-size: 0.75vw;
+    font-size: 1.3vw;
     text-rendering: geometricPrecision;
     text-align: left;
+    line-height: 1.67vw;
 }
 .text {
     font-family: mojangles;
-    font-size: 0.75vw;
+    font-size: 1.3vw;
     text-rendering: geometricPrecision;
     text-align: left;
-    line-height: 3.4vh;
+    line-height: 1.67vw;
 }
 .text-special {
     text-align: center;
@@ -99,6 +101,7 @@ body {
 
 .hidden {
     color: rgba(0, 0, 0, 0);
+    user-select: none;
 }
 .one {
     color: rgb(0, 0, 170);

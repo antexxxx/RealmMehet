@@ -14,7 +14,7 @@ button_mehet.addEventListener("mousedown", () => {
     button_mehet.src = "assets/button/mehet/held.png"
 })
 button_mehet.addEventListener("mouseup", () => {
-    button_mehet.src = "assets/button/mehet/idle.png"
+    button_mehet.src = "assets/button/mehet/hover.png"
 })
 
 
@@ -26,12 +26,10 @@ button_mehet.addEventListener("touchend", () => {
     button_mehet.src = "assets/button/mehet/idle.png"
 })
 
-info_mehet.addEventListener("touchstart", () => {
+info_mehet.addEventListener("click", () => {
     tooltip_mehet.src = "assets/button/mehet/tip-mehet.png"
 })
-info_mehet.addEventListener("touchend", () => {
-    tooltip_mehet.src = "assets/button/tip-hidden.png"
-})
+
 //----------------------------------------------------//
 
 const button_plc2 = document.getElementById("button-plc2")
@@ -50,7 +48,7 @@ button_plc2.addEventListener("mousedown", () => {
     button_plc2.src = "assets/button/placeholder/held.png"
 })
 button_plc2.addEventListener("mouseup", () => {
-    button_plc2.src = "assets/button/placeholder/idle.png"
+    button_plc2.src = "assets/button/placeholder/hover.png"
 })
 
 
@@ -62,11 +60,8 @@ button_plc2.addEventListener("touchend", () => {
     button_plc2.src = "assets/button/placeholder/idle.png"
 })
 
-info_plc2.addEventListener("touchstart", () => {
+info_plc2.addEventListener("click", () => {
     tooltip_plc2.src = "assets/button/placeholder/tip.png"
-})
-info_plc2.addEventListener("touchend", () => {
-    tooltip_plc2.src = "assets/button/tip-hidden.png"
 })
 //----------------------------------------------------//
 
@@ -86,7 +81,7 @@ button_plc3.addEventListener("mousedown", () => {
     button_plc3.src = "assets/button/placeholder/held.png"
 })
 button_plc3.addEventListener("mouseup", () => {
-    button_plc3.src = "assets/button/placeholder/idle.png"
+    button_plc3.src = "assets/button/placeholder/hover.png"
 })
 
 
@@ -98,9 +93,6 @@ button_plc3.addEventListener("touchend", () => {
     button_plc3.src = "assets/button/placeholder/idle.png"
 })
 
-info_plc3.addEventListener("touchstart", () => {
+info_plc3.addEventListener("click", () => {
     tooltip_plc3.src = "assets/button/placeholder/tip.png"
-})
-info_plc3.addEventListener("touchend", () => {
-    tooltip_plc3.src = "assets/button/tip-hidden.png"
 })
