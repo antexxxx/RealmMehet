@@ -140,6 +140,9 @@ body {
 .m {
     color: rgb(150, 21, 6);
 }
+.v {
+    color:  rgb(235, 113, 20)
+}
 .bold {
     font-family: mojangles-b;
     font-size: 0.7vw;
