@@ -137,17 +137,24 @@ body {
 .t {
     color: rgb(32, 72, 122);
 }
-.m {
+.m, .gazella {
     color: rgb(150, 21, 6);
 }
-.v {
+.v, .lacimbora{
     color:  rgb(235, 113, 20)
+}
+.e {
+    color: rgb(255, 255, 85);
+}
+.p, .bowecel{
+    color: rgb(222, 177, 45);
 }
 .bold {
     font-family: mojangles-b;
     font-size: 0.7vw;
     text-rendering: geometricPrecision;
     line-height: 0;
+    letter-spacing: -0.2vw;
 }
 .bold-special {
     font-family: mojangles-b;
