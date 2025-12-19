@@ -185,6 +185,22 @@ body {
     text-align: center;
     justify-content: center;
 }
+.bottom {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    user-select: none;
+    text-align: center;
+    justify-content: center;
+}
+.report-bug {
+    width: 22vw;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
 .button {
     display: inline;
     width: 10vw;

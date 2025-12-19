@@ -96,3 +96,22 @@ button_plc3.addEventListener("touchend", () => {
 info_plc3.addEventListener("click", () => {
     tooltip_plc3.src = "assets/button/placeholder/tip.png"
 })
+
+//----------------BUG-REPORT-BUTTON-------------//
+const bugreport = document.getElementById("bugreport")
+
+bugreport.addEventListener("mouseenter", () => {
+    bugreport.src = "assets/bugreport/hover.png"
+})
+
+bugreport.addEventListener("mouseleave", () => {
+    bugreport.src = "assets/bugreport/idle.png"
+})
+
+bugreport.addEventListener("mousedown", () => {
+    bugreport.src = "assets/bugreport/held.png"
+})
+
+bugreport.addEventListener("mouseup", () => {
+    bugreport.src = "assets/bugreport/hover.png"
+})
