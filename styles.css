@@ -149,6 +149,9 @@ body {
 .p, .bowecel{
     color: rgb(222, 177, 45);
 }
+.c {
+    color: rgb(255, 85, 85);
+}
 .bold {
     font-family: mojangles-b;
     font-size: 0.7vw;
@@ -257,4 +260,11 @@ body {
     position: absolute;
     left: 65.5%;
     top: 18.7%;
+}
+.bold-medium-ss {
+    text-align: center;
+    font-family: mojangles-b;
+    font-size: 1vw;
+    text-rendering: geometricPrecision;
+    line-height: 4vw;
 }
