@@ -137,18 +137,56 @@ body {
 .t {
     color: rgb(32, 72, 122);
 }
-.m, .gazella {
+.m {
     color: rgb(150, 21, 6);
 }
-.v, .lacimbora{
+
+.v {
     color:  rgb(235, 113, 20)
 }
+
 .e {
     color: rgb(255, 255, 85);
 }
-.p, .bowecel{
+.p {
     color: rgb(222, 177, 45);
 }
+
+
+.bowecel {
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+    color: rgb(222, 177, 45);
+}
+.lacimbora {
+    color:  rgb(235, 113, 20);
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+.gazella {
+    color: rgb(150, 21, 6);
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+.bigger {
+    color: rgb(207, 0, 207);
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+
+
 .c {
     color: rgb(255, 85, 85);
 }
