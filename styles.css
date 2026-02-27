@@ -151,6 +151,9 @@ body {
 .p {
     color: rgb(222, 177, 45);
 }
+.b {
+    color: #55FFFF;
+}
 
 
 .bowecel {
@@ -177,6 +180,28 @@ body {
     line-height: 0;
     letter-spacing: -0.2vw;
 }
+.ole {
+    color: #75553c;
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+.simon {
+    color: rgb(0, 0, 170);
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+.ole-c {
+    color: #965f35;
+}
+.ole-c-s {
+    color: #463223;
+}
 .bigger {
     color: rgb(207, 0, 207);
     font-family: mojangles-b;
@@ -185,7 +210,22 @@ body {
     line-height: 0;
     letter-spacing: -0.2vw;
 }
-
+.nina {
+    color: rgb(170, 0, 0);
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
+.lucas {
+    color: #00aaaa;
+    font-family: mojangles-b;
+    font-size: 0.7vw;
+    text-rendering: geometricPrecision;
+    line-height: 0;
+    letter-spacing: -0.2vw;
+}
 
 .c {
     color: rgb(255, 85, 85);
@@ -258,17 +298,6 @@ body {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
-.tooltip-png {
-    display: inline;
-    width: 19.7vw;
-    height: auto;
-    user-select: none;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-    position: absolute;
-    left: 12%;
-    top: 19%;
-}
 .info-png {
     display: inline;
     width: 2vw;
@@ -277,15 +306,28 @@ body {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
-.tooltip-png2 {
+
+
+.tooltip-png {
     display: inline;
-    width: 19.7vw;
+    width: 25vw;
     height: auto;
     user-select: none;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     position: absolute;
-    left: 39%;
+    left: 7%;
+    top: 20%;
+}
+.tooltip-png2 {
+    display: inline;
+    width: 30vw;
+    height: auto;
+    user-select: none;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    position: absolute;
+    left: 29%;
     top: 18.7%;
 }
 .tooltip-png3 {
@@ -305,4 +347,10 @@ body {
     font-size: 1vw;
     text-rendering: geometricPrecision;
     line-height: 4vw;
+}
+.pic1 {
+    width: 20vw;
+    height: auto;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
 }

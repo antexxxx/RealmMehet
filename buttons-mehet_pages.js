@@ -28,3 +28,15 @@ left.addEventListener("mouseenter", () => {
 left.addEventListener("mouseleave", () => {
     left.src = "assets/left/idle.png"
 })
+
+//-----------------------------------------------////-----------------------------------------------//
+//pictures
+const pic1 = document.getElementById("pic1")
+
+
+pic1.addEventListener("mouseenter", () => {
+    pic1.src = "assets/button/fityma/pic1-hgh.png"
+})
+pic1.addEventListener("mouseleave", () => {
+    pic1.src = "assets/button/fityma/pic1.png"
+})

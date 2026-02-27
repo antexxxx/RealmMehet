@@ -32,36 +32,36 @@ info_mehet.addEventListener("click", () => {
 
 //----------------------------------------------------//
 
-const button_plc2 = document.getElementById("button-plc2")
+const button_fityma = document.getElementById("button-fityma")
 const tooltip_plc2 = document.getElementById("tip-plc2")
 const info_plc2 = document.getElementById("info-plc2")
 
-button_plc2.addEventListener("mouseenter", () => {
-    button_plc2.src = "assets/button/placeholder/hover.png"
-    tooltip_plc2.src = "assets/button/placeholder/tip.png"
+button_fityma.addEventListener("mouseenter", () => {
+    button_fityma.src = "assets/button/fityma/hover.png"
+    tooltip_plc2.src = "assets/button/fityma/tip.png"
 })
-button_plc2.addEventListener("mouseleave", () => {
-    button_plc2.src = "assets/button/placeholder/idle.png"
+button_fityma.addEventListener("mouseleave", () => {
+    button_fityma.src = "assets/button/fityma/idle.png"
     tooltip_plc2.src = "assets/button/tip-hidden.png"
 })
-button_plc2.addEventListener("mousedown", () => {
-    button_plc2.src = "assets/button/placeholder/held.png"
+button_fityma.addEventListener("mousedown", () => {
+    button_fityma.src = "assets/button/fityma/held.png"
 })
-button_plc2.addEventListener("mouseup", () => {
-    button_plc2.src = "assets/button/placeholder/hover.png"
+button_fityma.addEventListener("mouseup", () => {
+    button_fityma.src = "assets/button/fityma/hover.png"
 })
 
 
 //touchscreen supprot
-button_plc2.addEventListener("touchstart", () => {
-    button_plc2.src = "assets/button/placeholder/held.png"
+button_fityma.addEventListener("touchstart", () => {
+    button_fityma.src = "assets/button/fityma/held.png"
 })
-button_plc2.addEventListener("touchend", () => {
-    button_plc2.src = "assets/button/placeholder/idle.png"
+button_fityma.addEventListener("touchend", () => {
+    button_fityma.src = "assets/button/fityma/idle.png"
 })
 
 info_plc2.addEventListener("click", () => {
-    tooltip_plc2.src = "assets/button/placeholder/tip.png"
+    tooltip_plc2.src = "assets/button/fityma/tip.png"
 })
 //----------------------------------------------------//
 
