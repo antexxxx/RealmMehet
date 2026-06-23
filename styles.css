@@ -354,3 +354,10 @@ body {
     padding-top: 0.6vw;
     padding-bottom: 0.6vw;
 }
+
+.emoji1special {
+    width: 1.2vw;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
