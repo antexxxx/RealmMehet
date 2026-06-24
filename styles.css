@@ -361,3 +361,39 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.end-outer {
+    display: inline-block;
+    background: black;
+    mix-blend-mode: multiply; /* makes black transparent to the page */
+}
+
+.end-wrapper {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+
+.end-vid,
+.end-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.end-vid {
+    object-fit: cover;
+}
+
+.end-text {
+    font-family: mojangles-b;
+    font-size: 1.2vw;
+    background: white;       /* white background is the mask */
+    mix-blend-mode: screen;  /* on the TEXT, not a container */
+    display: flex;
+    align-items: center;
+}
