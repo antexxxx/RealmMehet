@@ -73,6 +73,15 @@ body {
     text-align: left;
     line-height: 1.67vw;
 }
+
+.text-small {
+    font-size: 0.9vw;
+    font-family: mojangles;
+    text-rendering: geometricPrecision;
+    text-align: left;
+    line-height: 1.5vw;
+    padding: 0px;
+}
 .text {
     font-family: mojangles;
     font-size: 1.3vw;
@@ -367,17 +376,19 @@ body {
     background: black;
     mix-blend-mode: multiply;
     padding: 0px;
-
+    position: absolute;
+    top: -0%;
 }
 
 .end-wrapper {
-    position: relative;
     width: 400px;
     height: 100px;
     background-color: black;
     padding: 0px;
     position: absolute;
-    top: -2vh;
+    top: -1.5%;
+    overflow: hidden;
+    
 }
 
 
@@ -391,12 +402,23 @@ body {
     padding: 0px;
 }
 
+.end-vid {
+    position: absolute;
+    top: -2vw;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 
 .end-text {
     font-family: mojangles-b;
     font-size: 1.5vw;
-    background: white;       /* white background is the mask */
-    mix-blend-mode: screen;  /* on the TEXT, not a container */
-    display: flex;
+    background: white;
+    mix-blend-mode: screen;
     align-items: center;
+    padding-top: 1vw;
 }
