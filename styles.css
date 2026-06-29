@@ -170,6 +170,10 @@ body {
     color: #55FFFF;
 }
 
+.italic {
+    transform: skewX(-10deg) 
+}
+
 
 .bowecel {
     font-family: mojangles-b;
@@ -364,6 +368,13 @@ body {
     line-height: 4vw;
 }
 .pic1 {
+    width: 18vw;
+    height: auto;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+}
+
+.pic2 {
     width: 20vw;
     height: auto;
     padding-top: 0.6vw;
